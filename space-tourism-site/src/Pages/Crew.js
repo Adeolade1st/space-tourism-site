@@ -7,7 +7,10 @@ import mark from './mark.png';
 import bgs from './background-crew-desktop.jpg';
 import bgs2 from './background-crew-desktop1.jpg';
 import bgs3 from './background-crew-desktop2.jpg';
+//import bgs4 from './background-crew-desktop3.jpg';
 import victor from './image-victor-glover.png';
+import anouseh from './image-anousheh-ansari.png';
+
 
 
 export default function Crew(){
@@ -16,6 +19,8 @@ export default function Crew(){
              <img src={bgs} alt="background" className="bg-image" />
               <img src={bgs2} alt="background" className="bgs2-image" />
                <img src={bgs3} alt="background" className="bgs3-image" />
+               
+                 
        
                 <span> <img src={mainLogo} className="logo-head" alt="logo"></img></span>
                 <span> <img src={horizontal} className="horizontal-head" alt="horizontal-line"></img></span>
@@ -65,6 +70,23 @@ export default function Crew(){
                     <div className="victor-glover">VICTOR GLOVER</div> <div className="victor-about">Pilot on the first operational 
                     flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. 
                     Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.</div>
+                   </p></div>
+                    <div className="col-sm-6"><img src={anouseh} alt="anouseh-ansari" className="anouseh-image img-fluid"/></div>
+                    
+                </div>
+
+
+             </div>
+
+                  
+             <div className="container">
+                
+                <p className="head-anuseh">02 MEET YOUR CREW</p>
+                <div className="row">
+                    <div className="col-sm-6"> <p> <div className="engineer">Flight Engineer</div>
+                    <div className="anuouseh-ansari">Anousheh Ansari </div> <div className="anouseh-about">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+                    Ansari was the fourth self-funded space tourist, 
+                    the first self-funded woman to fly to the ISS, and the first Iranian in space.</div>
                    </p></div>
                     <div className="col-sm-6"><img src={victor} alt="victor-glover" className="victor-image img-fluid"/></div>
                     
