@@ -1,0 +1,198 @@
+ .horizontal-head {
+     position: absolute;
+     top: 85px;
+     margin-left: 345px;
+     max-width: 900px;
+ }
+
+ .logo-head {
+     background-color: white;
+     border-radius: 50px 50px;
+     position: absolute;
+     top: 60px;
+     margin-left: 100px;
+ }
+
+
+
+.crew-head{
+    color: white;
+    position: absolute;
+    top: 200px;
+        font-family: Barlow Condensed;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+}
+
+
+
+
+.doug-image{
+    position: absolute;
+    top: 170px;
+    margin-left: 150px;
+}
+
+.bio{
+    position: relative;
+    top: -1400px;
+    margin-right: 100px;
+    
+}
+
+.commander{
+    color: #D0D6F9;
+        font-family: Bellefair;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: -870px;
+     
+}
+
+.douglas{
+    color: white;
+        font-family: Bellefair;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+}
+
+.doug-about{
+    color:#D0D6F9;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+      
+}
+
+
+
+
+
+.specialist {
+    color: #D0D6F9;
+    font-family: Bellefair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: -1420px;
+
+}
+
+.mark-shu {
+    color: white;
+    font-family: Bellefair;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   position: relative;
+   top: -1410px;
+}
+
+.mark-about {
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    position: relative;
+    top: -1370px;
+
+}
+.mark-image {
+    position: absolute;
+    top: 1030px;
+    margin-left: 150px;
+}
+
+.head-mark{
+    color:white;
+        font-family: Barlow Condensed;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4.725px;
+        position: absolute;
+        margin-top: -1710px;
+      
+}
+
+
+.pilot {
+    color:#D0D6F9;
+    font-family: Bellefair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: -730px;
+
+}
+
+.victor-glover {
+    color: white;
+    font-family: Bellefair;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   position: relative;
+   top: -720px;
+}
+
+.victor-about {
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    position: relative;
+    top: -710px;
+    
+
+}
+
+.victor-image {
+    position: absolute;
+    top: 1950px;
+    margin-left: 150px;
+}
+
+.head-victor{
+    color: white;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    position: absolute;
+    margin-top: -1020px;
+
+}
+

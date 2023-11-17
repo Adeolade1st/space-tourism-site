@@ -1,9 +1,35 @@
 import React from "react";
 
 
+
 export default function Destination(){
     return(
 
-        <h1>We are going places </h1>
+        <div>
+            <h1>You are on the moon</h1>
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+       
     );
 }

@@ -1,67 +1,69 @@
-          .so-travel{
-              margin-top: -550px;
-              position: absolute;
-              color: #D0D6F9;
-              font-size: 28px;
-              font-weight: 400px;
-              letter-spacing: 4.73px;
+   .travel{
+       margin-top: -550px;
+       position: absolute;
+       color: #D0D6F9;
+       font-size: 28px;
+       font-weight: 400px;
+       letter-spacing: 4.73px;
+    font-family: Barlow Condensed;
 
 
-          }
+   }
 
-                  .space-on {
-                      font-size: 150px;
-                      color: #FFF;
-                      font-weight: 400px;
-                      position: absolute;
-                      top: 40px;
-                  }
-
-
-                                  .explore-more {
-                                      color:#0B0D17;
-                                      font-size: 32px;
-                                      letter-spacing: 2px;
-                                      font-weight: 400px;
-                                     
-                                  }
-
-                        .in {
-                            position: absolute;
-                            margin-left: 500px;
-                            top: 500px;
-                            background-color: white;
-                            padding: 90px 40px 90px 40px;
-            
-                        }
-            
-                        .in:hover {
-                            background-color: #D0D6F9;
-                        }
+   h1{
+       font-size: 150px;
+       color: #FFF;
+       font-weight: 400px;
+       position: absolute;
+       top: 400px;
+    font-family: Bellefair;
+   }
 
 
-                                .faceit-now {
-                                    position: relative;
-                                    top: -310px;
-                                    color: #D0D6F9;
-                                    font-size: 16px;
-                                    line-height: 32px;
-                                    font-weight: 400px;
-                                }
+   .explore-more {
+       color: #0B0D17;
+       font-size: 32px;
+       letter-spacing: 2px;
+       font-weight: 400px;
 
-                    .horizontal-line {
-                        position: absolute;
-                        top: 85px;
-                        margin-left: 345px;
-                        max-width: 900px;
-                    }
+   }
 
-                        .logo-top {
-                            background-color: white;
-                            border-radius: 50px 50px;
-                            position: absolute;
-                            top: 60px;
-                            margin-left: 100px;
-            
-            
-                        }
+   .in {
+       position: absolute;
+       margin-left: 500px;
+       top: 500px;
+       background-color: white;
+       padding: 90px 40px 90px 40px;
+
+   }
+
+   .in:hover {
+       background-color: #D0D6F9;
+   }
+
+
+   .faceit-now {
+       position: relative;
+       top: -310px;
+       color: #D0D6F9;
+       font-size: 16px;
+       line-height: 32px;
+       font-weight: 400px;
+   }
+
+   .horizontal-line {
+       position: absolute;
+       top: 85px;
+       margin-left: 345px;
+       max-width: 900px;
+   }
+
+   .logo-top {
+       background-color: white;
+       border-radius: 50px 50px;
+       position: absolute;
+       top: 60px;
+       margin-left: 100px;
+
+
+   }

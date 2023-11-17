@@ -10,7 +10,7 @@ export default function HomePage(){
     return(
 
         <div>
-            <img src= {desktopBackground} alt="desktop-background" className="desktopHome"></img>
+            <img src= {desktopBackground} alt="desktop-background" className="desktopHome" ></img>
                             <span> <img src={mainLogo} className="logo-top" alt="logo"></img></span>
                             <span> <img src={horizontal} className="horizontal-line" alt="horizontal-line"></img></span>
 
@@ -18,11 +18,11 @@ export default function HomePage(){
         <div className="container hero"> 
              <div className="row">
                   <div className="col-sm-4">
-                    <h1 className="so-travel">SO, YOU WANT TO TRAVEL TO <div className="space-on">SPACE</div> </h1>
+                    <p className="travel">SO, YOU WANT TO TRAVEL TO  </p> 
+                    <h1 className="space-on">SPACE</h1>
 
                      
                   </div>
-
                     <div className="col-sm-8">
                       <button className="btn rounded-circle in"><div className="explore-more">EXPLORE</div> </button>
 

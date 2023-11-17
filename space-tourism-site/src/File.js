@@ -1,6 +1,6 @@
  
 
-.desktopHome{
+.desktop{
 
   position: relative;
  

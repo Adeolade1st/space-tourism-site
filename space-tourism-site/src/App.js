@@ -7,6 +7,7 @@ import Technology from "./Pages/Technology";
 import HomePage from "./Pages/HomePage";
 
 
+
 function App() {
   return (
    
