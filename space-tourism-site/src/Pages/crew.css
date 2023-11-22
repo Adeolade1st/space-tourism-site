@@ -13,14 +13,16 @@
      margin-left: 100px;
  }
 
+ 
 
 
-.crew-head{
+
+.doug-head{
     color: white;
     position: absolute;
     top: 200px;
         font-family: Barlow Condensed;
-        font-size: 28px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -37,34 +39,32 @@
     margin-left: 150px;
 }
 
-.bio{
-    position: relative;
-    top: -1400px;
-    margin-right: 100px;
-    
-}
 
-.commander{
+.commander-doug{
     color: #D0D6F9;
         font-family: Bellefair;
-        font-size: 30px;
+        font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
-        margin-top: -870px;
+        position: relative;
+        top: -3210px;
+     
      
 }
 
 .douglas{
     color: white;
         font-family: Bellefair;
-        font-size: 45px;
+        font-size: 56px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
         margin-bottom: 20px;
+        position: relative;
+        top: -3200px;
 }
 
 .doug-about{
@@ -74,11 +74,10 @@
         font-style: normal;
         font-weight: 400;
         line-height: 32px;
+        position: relative;
+        top: -3190px;
       
 }
-
-
-
 
 
 .specialist {
@@ -90,7 +89,7 @@
     line-height: normal;
     text-transform: uppercase;
     position: relative;
-    top: -1420px;
+    top: -2620px;
 
 }
 
@@ -104,7 +103,7 @@
     text-transform: uppercase;
     margin-bottom: 20px;
    position: relative;
-   top: -1410px;
+   top: -2590px;
 }
 
 .mark-about {
@@ -115,7 +114,7 @@
     font-weight: 400;
     line-height: 32px;
     position: relative;
-    top: -1370px;
+    top: -2550px;
 
 }
 .mark-image {
@@ -133,7 +132,7 @@
         line-height: normal;
         letter-spacing: 4.725px;
         position: absolute;
-        margin-top: -1710px;
+        margin-top: -2900px;
       
 }
 
@@ -147,7 +146,7 @@
     line-height: normal;
     text-transform: uppercase;
     position: relative;
-    top: -730px;
+    top: -2000px;
 
 }
 
@@ -161,7 +160,7 @@
     text-transform: uppercase;
     margin-bottom: 20px;
    position: relative;
-   top: -720px;
+   top: -1970px;
 }
 
 .victor-about {
@@ -172,7 +171,7 @@
     font-weight: 400;
     line-height: 32px;
     position: relative;
-    top: -710px;
+    top: -1900px;
     
 
 }
@@ -192,7 +191,70 @@
     line-height: normal;
     letter-spacing: 4.725px;
     position: absolute;
-    margin-top: -1020px;
+    margin-top: -2220px;
 
 }
 
+
+
+
+
+
+
+.engineer {
+    color: #D0D6F9;
+    font-family: Bellefair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: -1370px;
+
+}
+
+.anuouseh-ansari{
+    color: white;
+    font-family: Bellefair;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    top: -1350px;
+}
+
+.anouseh-about {
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    position: relative;
+    top: -1300px;
+
+
+}
+
+.anouseh-image {
+    position: absolute;
+    top: 2900px;
+    margin-left: 150px;
+}
+
+.head-anouseh{
+    color: white;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    position: absolute;
+    margin-top: -1550px;
+
+}
