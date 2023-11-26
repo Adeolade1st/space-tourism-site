@@ -1,0 +1,67 @@
+
+.moon-head{
+    position: relative;
+    top: -3400px;
+    color: #FFF;
+        font-family: Barlow Condensed;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+}
+
+.moon{
+    position: relative;
+    top: -3280px;
+}
+
+.mon-dest{
+    position: absolute;
+   margin-top: -3280px;
+   color: black;
+   font-size: 50px;
+   margin-left: 740px;
+    color: #FFFF;
+    font-family: Bellefair;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+
+}
+
+.see{
+   
+        margin-top: -3150px;
+        color: #D0D6F9;
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+       
+}
+
+
+
+.horizontal-body{
+    color: red;
+}
+
+
+.col-sm-4{
+            position: absolute;
+            top: 300px;
+            margin-left: 750px;
+            
+           
+        
+}
+
+.col-sm-4 .btn{
+    color: white;
+}
+
