@@ -4,7 +4,10 @@ import horizontal from './Rectangle.png';
 import hr from './hr-line.png';
 import bgDestination from './background-destination-desktop.jpg';
 import moon from './image-moon.png';
+import titan from './image-titan.png';
+import europa from './image-europa.png';
 import "./destination.css";
+import Mars from './Mars';
 
 
 
@@ -25,7 +28,7 @@ export default function Destination(){
 
                 <div className="container main">
                     <div className="container">
-                        <p className="moon-head">01 PICK YOUR DESTINATION</p>
+                        <p className="moon-head"> <span className="num">01</span> PICK YOUR DESTINATION</p>
                         <div className="row">
                             <div className="col-sm-7"><img src={moon} alt="moon" className="moon"/></div>
                             <div className="col-sm-4"> <span ><button className="btn">MOON</button></span> 
@@ -37,11 +40,8 @@ export default function Destination(){
                                 While you’re there, take in some history by visiting the 
                                 Luna 2 and Apollo 11 landing sites.</p>
 
-                                 
-                               
                              </div>
                             
-                              
                               <div className="row">
                                 <div> < img src={hr} className="hr-body" alt="horizontal-line"></img></div>
                                 <div className="col-6 avg">AVG. DISTANCE</div>
@@ -50,18 +50,12 @@ export default function Destination(){
                                      <div className="col-6 days">3 DAYS</div>
                                   </div>
                             
-                             
-                                  
-                                 
-                                
-                                   
-                             
-                                
-                           
                            
                         </div>
 
+                   
                     </div>
+                     <Mars />
 
 
 

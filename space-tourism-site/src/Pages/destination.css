@@ -12,6 +12,10 @@
         text-transform: uppercase;
 }
 
+.num{
+    opacity: 50%;
+}
+
 .moon{
     position: relative;
     top: -3280px;
