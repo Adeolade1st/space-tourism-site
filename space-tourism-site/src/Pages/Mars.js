@@ -28,8 +28,8 @@ export default function Mars(){
                                 <div> < img src={hr} className="hr-body-mars" alt="horizontal-line"></img></div>
                                 <div className="col-6 avg-mars">AVG. DISTANCE</div>
                                  <div className="col-6 est-mars">EST. TRAVEL TIME</div>
-                                  <div className="col-6 km-mars">384,400 KM</div>
-                                     <div className="col-6 days-mars">3 DAYS</div>
+                                  <div className="col-6 km-mars">225 MIL. KM</div>
+                                     <div className="col-6 days-mars">9 MONTHS</div>
                                   </div>
                             
                            

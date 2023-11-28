@@ -4,10 +4,9 @@ import horizontal from './Rectangle.png';
 import hr from './hr-line.png';
 import bgDestination from './background-destination-desktop.jpg';
 import moon from './image-moon.png';
-import titan from './image-titan.png';
-import europa from './image-europa.png';
 import "./destination.css";
 import Mars from './Mars';
+import Europa from "./Europa";
 
 
 
@@ -56,15 +55,7 @@ export default function Destination(){
                    
                     </div>
                      <Mars />
-
-
-
-
-
-
-
-
-
+                     <Europa />
 
                 </div>
            

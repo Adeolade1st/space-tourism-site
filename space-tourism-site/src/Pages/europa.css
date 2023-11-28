@@ -1,0 +1,105 @@
+.head-europa {
+    position: absolute;
+    top: 1910px;
+    color: white;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+.num-europa {
+    opacity: 50%;
+}
+
+.europa-image{
+    position: relative;
+    top: -1970px;
+}
+
+.europa-dest {
+    position: absolute;
+    margin-top: -2000px;
+    color: black;
+    font-size: 50px;
+    margin-left: 750px;
+    color: #FFFF;
+    font-family: Bellefair;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.see-europa {
+    position: absolute;
+    margin-top: -1800px;
+    color:#D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 120px;
+
+
+
+}
+
+.europa-links {
+    position: absolute;
+    top: 2000px;
+    margin-left: 750px;
+
+
+
+}
+
+.europa-links .btn {
+    color: white;
+}
+
+.avg-europa {
+    position: absolute;
+    top: 2520px;
+    color: #D0D6F9;
+    margin-left: 750px;
+
+}
+
+.est-europa {
+    position: absolute;
+    top: 2520px;
+    color: #D0D6F9;
+    margin-left: 980px;
+
+
+}
+
+.km-europa {
+
+    position: absolute;
+    top: 2550px;
+    color: white;
+    margin-left: 750px
+}
+
+.days-europa {
+
+    position: absolute;
+    top: 2550px;
+    color: white;
+    margin-left: 980px;
+}
+
+.hr-body-europa {
+    position: absolute;
+    top: 2490px;
+    margin-left: 750px;
+    max-width: 360px;
+}
