@@ -8,11 +8,12 @@ import "./destination.css";
 import Mars from './Mars';
 import Europa from "./Europa";
 import Titan from "./Titan";
-
+//import {Link} from 'react-router-dom';
 
 
 
 export default function Destination(){
+    
     return(
        
 
@@ -32,7 +33,7 @@ export default function Destination(){
                         <div className="row">
                             <div className="col-sm-7"><img src={moon} alt="moon" className="moon"/></div>
                             <div className="col-sm-4"> <span ><button className="btn">MOON</button></span> 
-                             <span ><button className="btn">MARS</button></span> <span ><button className="btn ">EUROPA</button>
+                             <span ><button className="btn">  MARS</button></span> <span ><button className="btn ">EUROPA</button>
                              </span> <span ><button className="btn ">TITAN</button></span> </div>
                              <p className="mon-dest">MOON</p>
                              <div className="col-5">  <p className="see">See our planet as you’ve never seen it before. A perfect relaxing trip 
@@ -55,7 +56,7 @@ export default function Destination(){
 
                    
                     </div>
-                     <Mars />
+                     <Mars link />
                      <Europa />
                      <Titan />
 

@@ -1,41 +1,46 @@
 import React from "react";
+import techBackground from './background-technology-desktop.jpg';
+import mainLogo from './Path.png';
+import horizontal from './Rectangle.png';
+import launchVehicle from './image-launch-vehicle-portrait.jpg';
+import './technology.css';
 
 
 export default function Technology(){
     return(
 
-        <h1><div className="container">
-        <div className="container hero"> 
-             <div className="row">
-                  <div className="col-sm-4">
-                    <h1>SO, YOU WANT TO TRAVEL TO <div className="space">SPACE</div> </h1>
+      <div className="Terminologu">
 
-                     
+        <img src= {techBackground} alt="background" />
+         <span> <img src={mainLogo} className="logo-top" alt="logo"></img></span>
+         <span> <img src={horizontal} className="horizontal-line" alt="horizontal-line"></img></span>
+
+         <div className="container hero">
+          <div className="container">
+            <div className="row">
+              <p className="space-launch"><span>03</span> SPACE LAUNCH 101</p>
+            <div className="col-sm-2"> <ul><li><button className="btn btn primary one">1</button></li>
+                <li><button className="btn btn primary two ">2</button></li>
+                  <li><button className="btn btn primary three">3</button></li>
+                  </ul>
                   </div>
+             <div className="col-sm-6"> <p className="terminology">THE TERMINOLOGY...</p> <div className="vehicle">LAUNCH VEHICLE</div> 
+             <div className="term-desc">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload
+               from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the
+               most powerful in operation. Standing 150 metres tall, 
+              it's quite an awe-inspiring sight on the launch pad!</div></div>
+              <div className="col-sm-4"> <img src= {launchVehicle} alt="launch-vehice" className="launch-vehicle" /> </div>
 
-                    <div className="col-sm-8">
-                      <button className="btn rounded-circle"><div className="explore">EXPLORE</div> </button>
 
-                   </div>
-           </div>
+          </div>
+          </div>
+         </div>
 
-           <div className="row">
-            <div className="col-sm-4">
-              <p className="faceit ">
-                         
-                            Let’s face it; if you want to go to space, you might as well genuinely go to outer 
-                            space and not hover kind of on the edge of it.
-                            Well sit back, and relax because we’ll give you a truly out 
-                            of this world experience! Explore
-                        
-              </p>
-              
-            </div>
-            <div className="col-sm-8"></div>
 
-           </div>
 
-        </div>
-       </div></h1>
+      </div>
+
+       
+       
     );
 }
