@@ -11,6 +11,7 @@ export default function Mars(){
             <div className="container hero">
 
             <div className="container">
+                
                         <p className="head-mars"> <span className="num1">01</span> PICK YOUR DESTINATION</p>
                         <div className="row">
                             <div className="col-sm-7 mars-image"><img src={mars} alt="mars" className="mars"/></div>

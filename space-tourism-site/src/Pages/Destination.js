@@ -7,6 +7,7 @@ import moon from './image-moon.png';
 import "./destination.css";
 import Mars from './Mars';
 import Europa from "./Europa";
+import Titan from "./Titan";
 
 
 
@@ -56,25 +57,11 @@ export default function Destination(){
                     </div>
                      <Mars />
                      <Europa />
+                     <Titan />
 
                 </div>
            
              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

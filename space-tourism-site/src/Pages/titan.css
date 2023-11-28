@@ -1,6 +1,6 @@
-.head-europa {
+.head-titan {
     position: absolute;
-    top: 1910px;
+    top: 2800px;
     color: white;
     font-family: Barlow Condensed;
     font-size: 28px;
@@ -11,18 +11,18 @@
     text-transform: uppercase;
 }
 
-.num-europa {
+.num-titan {
     opacity: 50%;
 }
 
-.europa-image{
+.titan-image {
     position: relative;
-    top: -1970px;
+    top: -1490px;
 }
 
-.europa-dest {
+.titan-dest {
     position: absolute;
-    margin-top: -2000px;
+    margin-top: -1570px;
     font-size: 50px;
     margin-left: 750px;
     color: #FFFF;
@@ -35,71 +35,70 @@
 
 }
 
-.see-europa {
+.see-titan {
     position: absolute;
-    margin-top: -1800px;
-    color:#D0D6F9;
+    margin-top: -1390px;
+    color: #D0D6F9;
     font-family: Barlow;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     margin-left: 120px;
-    
 
 
 
 }
 
-.europa-links {
+.titan-links {
     position: absolute;
-    top: 2000px;
+    top: 2900px;
     margin-left: 750px;
 
 
 
 }
 
-.europa-links .btn {
+.titan-links .btn {
     color: white;
 }
 
-.avg-europa {
+.avg-titan{
     position: absolute;
-    top: 2520px;
+    top: 3400px;
     color: #D0D6F9;
     margin-left: 750px;
 
 }
 
-.est-europa {
+.est-titan {
     position: absolute;
-    top: 2520px;
+    top: 3400px;
     color: #D0D6F9;
     margin-left: 980px;
 
 
 }
 
-.km-europa {
+.km-titan{
 
     position: absolute;
-    top: 2550px;
+    top: 3430px;
     color: white;
     margin-left: 750px
 }
 
-.days-europa {
+.days-titan{
 
     position: absolute;
-    top: 2550px;
+    top: 3430px;
     color: white;
     margin-left: 980px;
 }
 
-.hr-body-europa {
+.hr-body-titan {
     position: absolute;
-    top: 2490px;
+    top: 3360px;
     margin-left: 750px;
     max-width: 360px;
 }
