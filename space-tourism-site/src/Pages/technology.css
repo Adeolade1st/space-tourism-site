@@ -11,18 +11,16 @@
      position: absolute;
      top: 60px;
      margin-left: 100px;
-  
-
-
+ 
  }
 
  span{
     opacity: 50%;
  }
 
- .space-launch{
+ .launch-vehicle{
     position: absolute;
-    top: 190px;
+    top: -20px;
     color: white;
         font-family: Barlow Condensed;
         font-size: 28px;
@@ -34,7 +32,7 @@
 
  .terminology{
     position: relative;
-    top: -490px;
+    top: -2410px;
     color: #D0D6F9;
         font-family: Barlow Condensed;
         font-size: 16px;
@@ -44,7 +42,7 @@
 
  .vehicle{
     position: relative;
-    top: -510px;
+    top: -2410px;
     color: #FFF;
         font-family: Bellefair;
         font-size: 56px;
@@ -53,7 +51,7 @@
 
  .term-desc{
     position: relative;
-    top: -490px;
+    top: -2390px;
     color: #D0D6F9;
         font-family: Barlow;
         font-size: 18px;
@@ -63,15 +61,16 @@
  }
 
  ul{
-    position: relative;
-    top: -490px;
+    position: absolute;
+    top: -1490px;
        
      
         
  }
 
  li{
-
+    position: relative;
+    top: -1910px;
     list-style: none;
     color: white;
     max-width: 80px;
@@ -95,3 +94,6 @@
     color: white;
     
  }
+
+
+ 

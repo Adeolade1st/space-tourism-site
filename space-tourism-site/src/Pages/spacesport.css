@@ -1,0 +1,80 @@
+ span {
+     opacity: 50%;
+ }
+
+ .spaceport-img{
+     position: absolute;
+     top: 790px;
+     color: white;
+     font-family: Barlow Condensed;
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 4.725px;
+ }
+
+ .terminology-spaceport {
+     position: relative;
+     top: -1890px;
+     color: #D0D6F9;
+     font-family: Barlow Condensed;
+     font-size: 16px;
+     font-weight: 400;
+     letter-spacing: 2.7px;
+ }
+
+ .vehicle-spaceport {
+     position: relative;
+     top: -1900px;
+     color: #FFF;
+     font-family: Bellefair;
+     font-size: 56px;
+     font-weight: 400;
+ }
+
+ .term-desc-spaceport {
+     position: relative;
+     top: -1870px;
+     color: #D0D6F9;
+     font-family: Barlow;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 32px;
+
+ }
+
+ ul {
+     position: relative;
+     top: -490px;
+
+
+
+ }
+
+ .link-list{
+        position: relative;
+        top: -1400px;
+     list-style: none;
+     color: white;
+     max-width: 80px;
+     height: 80px;
+     border: 1px solid white;
+     background-color: #11131e;
+     padding: 10px 20px 20px 20px;
+     border-radius: 100px 100px 100px 100px;
+     margin-bottom: 20px;
+     font-size: 32px !important;
+     font-weight: 400px;
+
+ }
+
+ li:hover {
+     background-color: white;
+     color: #11131e;
+ }
+
+ li .btn {
+     color: white;
+
+ }

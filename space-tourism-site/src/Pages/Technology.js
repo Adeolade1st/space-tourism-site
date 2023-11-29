@@ -3,15 +3,21 @@ import techBackground from './background-technology-desktop.jpg';
 import mainLogo from './Path.png';
 import horizontal from './Rectangle.png';
 import launchVehicle from './image-launch-vehicle-portrait.jpg';
+import Spaceport from "./Spaceport";
+
 import './technology.css';
 
 
 export default function Technology(){
     return(
 
-      <div className="Terminologu">
+      <div className="Terminology">
 
         <img src= {techBackground} alt="background" />
+          <img src= {techBackground} alt="background" />
+          <img src= {techBackground} alt="background" />
+        
+      
          <span> <img src={mainLogo} className="logo-top" alt="logo"></img></span>
          <span> <img src={horizontal} className="horizontal-line" alt="horizontal-line"></img></span>
 
@@ -19,9 +25,9 @@ export default function Technology(){
           <div className="container">
             <div className="row">
               <p className="space-launch"><span>03</span> SPACE LAUNCH 101</p>
-            <div className="col-sm-2"> <ul><li><button className="btn btn primary one">1</button></li>
-                <li><button className="btn btn primary two ">2</button></li>
-                  <li><button className="btn btn primary three">3</button></li>
+            <div className="col-sm-2"> <ul><li><button className="btn btn primary">1</button></li>
+                <li><button className="btn btn primary">2</button></li>
+                  <li><button className="btn btn primary">3</button></li>
                   </ul>
                   </div>
              <div className="col-sm-6"> <p className="terminology">THE TERMINOLOGY...</p> <div className="vehicle">LAUNCH VEHICLE</div> 
@@ -34,6 +40,9 @@ export default function Technology(){
 
           </div>
           </div>
+          <Spaceport />
+
+
          </div>
 
 
