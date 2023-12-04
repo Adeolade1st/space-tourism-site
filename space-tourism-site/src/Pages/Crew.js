@@ -38,7 +38,7 @@ export default function Crew(){
                 <div className="row">
                     <div className="col-sm-6"> 
                     <div className="commander-doug">Commander </div>
-                    <div className="douglas">  Douglas Gerald Hurley  </div>
+                    <div className="douglas">  Douglas Hurley  </div>
                     <p className="doug-about">is an American engineer, former Marine Corps pilot and former NASA astronaut.
                      He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
                      </div>

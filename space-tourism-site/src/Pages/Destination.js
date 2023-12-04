@@ -8,7 +8,7 @@ import "./destination.css";
 import Mars from './Mars';
 import Europa from "./Europa";
 import Titan from "./Titan";
-//import {Link} from 'react-router-dom';
+
 
 
 
@@ -18,9 +18,8 @@ export default function Destination(){
        
 
         <div className="destination">
-           
-
-             <img src={bgDestination} alt="background" className="bg-image" />
+    
+              <img src={bgDestination} alt="background" className="bg-image" />
              <img src={bgDestination} alt="background" className="bg-image" />
              <img src={bgDestination} alt="background" className="bg-image" />
              <img src={bgDestination} alt="background" className="bg-image" />

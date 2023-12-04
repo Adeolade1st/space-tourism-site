@@ -31,14 +31,23 @@
    .in {
        position: absolute;
        margin-left: 400px;
-       top: 450px;
+       top: 420px;
        background-color: white;
        padding: 90px 40px 90px 40px;
+      
 
    }
 
    .in:hover {
-       background-color: #D0D6F9;
+      
+       border-width: 50px;
+       border-color: #24262F;
+       background-color: #FFF;
+       opacity: 90%;
+       cursor: pointer;
+        transition:.1000ms ease-in;
+ 
+       
    }
 
 

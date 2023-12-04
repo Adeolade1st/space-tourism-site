@@ -4,6 +4,7 @@ import mainLogo from './Path.png';
 import horizontal from './Rectangle.png';
 import launchVehicle from './image-launch-vehicle-portrait.jpg';
 import Spaceport from "./Spaceport";
+import SpaceCapsule from "./SpaceCapsule";
 
 import './technology.css';
 
@@ -25,12 +26,12 @@ export default function Technology(){
           <div className="container">
             <div className="row">
               <p className="space-launch"><span>03</span> SPACE LAUNCH 101</p>
-            <div className="col-sm-2"> <ul><li><button className="btn btn primary">1</button></li>
-                <li><button className="btn btn primary">2</button></li>
-                  <li><button className="btn btn primary">3</button></li>
+            <div className="col-sm-2"> <ul><li className="list-1"><button className="btn btn primary one">1</button></li>
+                <li list-1><button className="btn btn primary two">2</button></li>
+                  <li list-1><button className="btn btn primary three">3</button></li>
                   </ul>
                   </div>
-             <div className="col-sm-6"> <p className="terminology">THE TERMINOLOGY...</p> <div className="vehicle">LAUNCH VEHICLE</div> 
+             <div className="col-sm-5"> <p className="terminology">THE TERMINOLOGY...</p> <div className="vehicle">LAUNCH VEHICLE</div> 
              <div className="term-desc">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload
                from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the
                most powerful in operation. Standing 150 metres tall, 
@@ -41,6 +42,7 @@ export default function Technology(){
           </div>
           </div>
           <Spaceport />
+          <SpaceCapsule />
 
 
          </div>

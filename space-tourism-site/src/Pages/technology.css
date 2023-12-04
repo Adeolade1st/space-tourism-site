@@ -18,6 +18,16 @@
     opacity: 50%;
  }
 
+ .space-launch{
+   position: relative;
+   top: -2480px;
+   color: #FFF;
+      font-family: Barlow Condensed;
+      font-size: 28px;
+      font-weight: 400;
+      letter-spacing: 4.725px;
+ }
+
  .launch-vehicle{
     position: absolute;
     top: -20px;
@@ -45,8 +55,9 @@
     top: -2410px;
     color: #FFF;
         font-family: Bellefair;
-        font-size: 56px;
+        font-size: 50px;
         font-weight: 400;
+        line-height: normal;
  }
 
  .term-desc{
@@ -61,39 +72,93 @@
  }
 
  ul{
-    position: absolute;
+    position: relative;
     top: -1490px;
        
      
         
  }
 
+
  li{
-    position: relative;
-    top: -1910px;
+    position: absolute;
+    top: 1900px;
     list-style: none;
-    color: white;
-    max-width: 80px;
-        height: 80px;
-        border: 1px solid white;
-        background-color: #11131e;
-        padding: 10px 20px 20px 20px;
-        border-radius: 100px 100px 100px 100px;
-        margin-bottom: 20px;
-        font-size: 32px !important;
-        font-weight: 400px;
+    
+       
        
  }
 
- li:hover{
-    background-color: white;
-    color: #11131e;
- }
+  .one {
+     position: relative;
+     top: -2820px;
+     list-style: none;
+     color: white;
+     max-width: 80px;
+     height: 80px;
+     border: 1px solid white;
+     background-color: #11131e;
+     padding: 10px 30px 20px 30px;
+     border-radius: 100px 100px 100px 100px;
+     margin-bottom: 20px;
+     font-size: 32px !important;
+     font-weight: 400px;
 
- li .btn{
-    color: white;
-    
- }
+  }
+
+  .one:hover {
+     background-color: white;
+     color: #11131e;
+  }
+
+
+      .two {
+         position: relative;
+         top: -2720px;
+         list-style: none;
+         color: white;
+         max-width: 80px;
+         height: 80px;
+         border: 1px solid white;
+         background-color: #11131e;
+         padding: 10px 30px 20px 30px;
+         border-radius: 100px 100px 100px 100px;
+         margin-bottom: 20px;
+         font-size: 32px !important;
+         font-weight: 400px;
+   
+      }
+   
+      .two:hover {
+         background-color: white;
+         color: #11131e;
+      }
+
+             .three {
+                position: relative;
+                top: -2620px;
+                list-style: none;
+                color: white;
+                max-width: 80px;
+                height: 80px;
+                border: 1px solid white;
+                background-color: #11131e;
+                padding: 10px 30px 20px 30px;
+                border-radius: 100px 100px 100px 100px;
+                margin-bottom: 20px;
+                font-size: 32px !important;
+                font-weight: 400px;
+      
+             }
+      
+             .three:hover {
+                background-color: white;
+                color: #11131e;
+             }
+
+
+
+
 
 
  
