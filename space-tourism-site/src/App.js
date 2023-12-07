@@ -8,6 +8,7 @@ import {BrowserRouter as Router,Routes,Route, Link} from "react-router-dom";
 
 
 
+
 function App() {
   return (
    
@@ -17,6 +18,7 @@ function App() {
                           <Link to="/Destination"> <strong>01 </strong> DESTINATION</Link>
                           <Link to="/Crew"> <strong>02 </strong> CREW</Link>
                           <Link to="/Technology"> <strong>03 </strong> TECHNOLOGY</Link>
+                     
                         </nav>
 
 
@@ -27,15 +29,17 @@ function App() {
                              <Route path='Crew' element={<Crew/>}/>
                                <Route path='/Technology' element={<Technology />}/>
                           
+                          
                             </Routes>
                        
 
                         
-
+    
    </Router>
-   
+  
    
   );
+  
 }
 
 export default App;

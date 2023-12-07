@@ -1,3 +1,50 @@
+@media screen and (max-width: 500px) {
+
+    .travel{
+        text-align: center;
+    }
+
+   .desktopHome{
+    display: none;
+
+ 
+   }
+
+   .in {
+      
+       background-color: red !important;
+        padding: 45px 20px 45px 20px;
+        margin-right: 100px;
+   }
+      
+
+ .mobileHome{
+    max-width: 100%;
+    height: auto;
+    position:relative;
+ }
+
+
+   
+   
+
+}
+
+
+@media screen and (min-width: 501px)  {
+    .mobileHome{
+        display: none;
+       
+    }
+
+    .horizontal-line{
+        display: none;
+    }
+
+    
+    
+}
+   
    .travel{
        margin-top: -550px;
        position: absolute;

@@ -1,24 +1,33 @@
 import React from "react";
 import desktopBackground from './background-home-desktop.jpg';
+import mobileBackground from './background-home-mobile.jpg';
 import mainLogo from './Path.png';
 import horizontal from './Rectangle.png';
 import './homepage.css';
 
 
 
+
+
+
 export default function HomePage(){
+
+
+ 
+
+
     return(
 
         <div>
-            <img src= {desktopBackground} alt="desktop-background" className="desktopHome" ></img>
+            <img src= {desktopBackground} alt="desktop-background" className="desktopHome img-fluid "  ></img>
+             <img src= {mobileBackground} alt="mobile-background" className="mobileHome img-fluid max-width: 100% height:auto " ></img>
                             <span> <img src={mainLogo} className="logo-top" alt="logo"></img></span>
                             <span> <img src={horizontal} className="horizontal-line" alt="horizontal-line"></img></span>
-
+         
+         
     <div className="container">
         <div className="container hero"> 
-          
-                  
-                    <p className="travel">SO, YOU WANT TO TRAVEL TO  </p> 
+           <p className="travel">SO, YOU WANT TO TRAVEL TO  </p>
                     <h1 className="space-on">SPACE</h1>
 
            <div className="row">
@@ -47,7 +56,8 @@ export default function HomePage(){
         
 
         
-
+       
      
     );
+ 
 }
