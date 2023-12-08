@@ -2,6 +2,13 @@
 
     .travel{
         text-align: center;
+        color: #D0D6F9;
+            font-family: Barlow Condensed;
+            font-size: 16px !important;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2.7px;
     }
 
    .desktopHome{
@@ -10,20 +17,80 @@
  
    }
 
-   .in {
-      
-       background-color: red !important;
-        padding: 45px 20px 45px 20px;
-        margin-right: 100px;
+   .logo-top{
+    display:none;
    }
+
+    .in {
+      
+   
+     display: none;
+    
+        
+        
+   }
+
+   .rounded{
+    margin-top: -360px;
+    margin-left: 90px;
+    background-color: #FFF;
+    border-radius: 100px 100px 100px 100px !important;
+    padding: 60px 40px 60px 40px;
+
+
+   
+   }
+
+  
+
+
+        .horizontal-line {
+            display: none;
+        }
+
+   
       
 
  .mobileHome{
     max-width: 100%;
     height: auto;
-    position:relative;
+    
  }
 
+ .faceit-now{
+
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    color: #D0D6F9;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 15px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: -90px;
+      
+ }
+
+ .space-on{
+    margin-top: -180px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    color: #FFF;
+        font-family: Bellefair;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100px;
+        margin-top: -250px;
+       
+    
+ }
+
+ 
 
    
    
@@ -37,10 +104,24 @@
        
     }
 
-    .horizontal-line{
+    .rounded{
         display: none;
     }
 
+         .space-on {
+             margin-top: -20px;
+             color: #FFF;
+             font-family: Bellefair;
+             font-size: 150px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 100px;
+    
+    
+    
+         }
+
+   
     
     
 }
@@ -110,7 +191,7 @@
    .horizontal-line {
        position: absolute;
        top: 85px;
-       margin-left: 345px;
+       margin-left: 270px;
        max-width: 900px;
    }
 
@@ -120,6 +201,9 @@
        position: absolute;
        top: 60px;
        margin-left: 100px;
+      
 
 
    }
+
+  
