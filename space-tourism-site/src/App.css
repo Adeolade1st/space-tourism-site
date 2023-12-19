@@ -1,34 +1,61 @@
 
-@media screen and (max-width:500px) {
-  .navBar{
+@media screen and (max-width:375px) {
+.navBar{
+   display: none;
+  }
+
+
+  
+}
+
+@media screen and (min-width:390px) and (max-width:768px) {
+
+
+   .navBar {
+     display: none;
+   }
+
+
+
+ }
+
+
+ @media screen and (min-width:820px){
+  .nav{
+    display: none;
+  }
+
+  .routeMobile{
     display: none;
   }
   
-}
+  .navBar{
+
+    margin-left: 250px;
+
+  }
+ }
 
 .navBar {
   position: absolute;
   top: 40px;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(41px);
-  height: 86px;
+  height: 96px;
   padding-top: 30px;
-  padding-right: 10px;
-  padding-left: 120px;
+  padding-left: 177px;
   max-width: 1000px;
   opacity: 70%;
-  margin-left: 800px;
-
+  margin-left: 670px;
 }
 
 .navBar a {
   text-decoration: none;
   color: white;
-  letter-spacing: 3.9px;
+  letter-spacing: 1.9px;
   font-weight: 400px;
-  font-size: 10px;
-  
- 
+  font-size: 12px;
+
  
 
 }

@@ -1,67 +1,67 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
 
-    .travel{
-        text-align: center;
-        color: #D0D6F9;
-            font-family: Barlow Condensed;
-            font-size: 16px !important;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            letter-spacing: 2.7px;
-    }
 
    .desktopHome{
     display: none;
 
- 
    }
 
    .logo-top{
-    display:none;
+    position: absolute;
+    margin-left: 20px;
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: white;
+
+   }
+
+   .hamburger{
+    width: 24px;
+    height: 21px;
+    flex-shrink: 0;
+   position: absolute;
+   top: 25px;
+   color: #D0D6F9;
+   margin-left: 300px;
+
    }
 
     .in {
       
-   
      display: none;
-    
-        
-        
+       
    }
 
    .rounded{
-    margin-top: -360px;
+    margin-top: -280px;
     margin-left: 90px;
     background-color: #FFF;
     border-radius: 100px 100px 100px 100px !important;
     padding: 60px 40px 60px 40px;
 
-
-   
    }
-
-  
-
 
         .horizontal-line {
             display: none;
         }
 
-   
-      
+    .travel{
+        position: absolute;
+        top: 100px;
+        color: #D0D6F9;
+        margin-left: 30px;
+            text-align: center;
+            font-family: Barlow Condensed;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 2.7px;
+    }
 
- .mobileHome{
-    max-width: 100%;
-    height: auto;
-    
- }
 
  .faceit-now{
 
-    margin-top: 10px;
-    display: flex;
-    justify-content:center;
     color: #D0D6F9;
         text-align: center;
         font-family: Barlow;
@@ -69,7 +69,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 25px;
-        margin-top: -90px;
+        margin-top: -390px;
       
  }
 
@@ -89,54 +89,205 @@
        
     
  }
+  .tabletHome {
+      display: none;
+  }
 
- 
-
-   
-   
+  ul{
+    display: block;
+    
+  }
 
 }
 
-
-@media screen and (min-width: 501px)  {
-    .mobileHome{
+@media screen and (min-width: 820px){
+    .mobileHome {
         display: none;
-       
+
+    }
+
+         .tabletHome {
+             display: none;
+         }
+
+         .hamburger{
+            display: none;
+         }
+
+    .space-on {
+        margin-top: -60px;
+        color: #FFF;
+        font-family: Bellefair;
+        font-size: 150px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100px;
+
     }
 
     .rounded{
         display: none;
     }
 
-         .space-on {
-             margin-top: -20px;
-             color: #FFF;
-             font-family: Bellefair;
-             font-size: 150px;
-             font-style: normal;
-             font-weight: 400;
-             line-height: 100px;
+        explore-more {
+            color: #0B0D17;
+            font-size: 10px;
+            letter-spacing: 2px;
+            font-weight: 400px;
     
-    
-    
-         }
+        }
 
-   
-    
-    
+                  .travel {
+                      margin-top: -500px;
+                      margin-left: 20px;
+                      position: absolute;
+                      color: #D0D6F9;
+                      font-size: 20px;
+                      font-weight: 400px;
+                      letter-spacing: 4.73px;
+                      justify-content: center;
+                      font-family: Barlow Condensed;
+                  }
+
+                                  .faceit-now {
+                                      position: relative;
+                                      top: -270px;
+                                      color: #D0D6F9;
+                                      font-size: 16px;
+                                      line-height: 32px;
+                                      font-weight: 400px;
+                                  }
+
+                        .horizontal-line {
+                            position: absolute;
+                            top: 85px;
+                            margin-left: 150px;
+                            max-width: 900px;
+                        }
+            
+                        .logo-top {
+                            background-color: white;
+                            border-radius: 50px 50px;
+                            position: absolute;
+                            top: 60px;
+                            margin-left: 20px;
+            
+                        }
+
+
+                                                .explore-more {
+                                                    color: #0B0D17;
+                                                    font-size: 32px;
+                                                    letter-spacing: 2px;
+                                                    font-weight: 400px;
+                        
+                                                }
+                        
+                                                .in {
+                                                    position: absolute;
+                                                    margin-left: 400px;
+                                                    top: 420px;
+                                                    background-color: white;
+                                                    padding: 90px 40px 90px 40px;
+                        
+                        
+                                                }
+                        
+                                                .in:hover {
+                        
+                                                    border-width: 50px;
+                                                    border-color: #24262F;
+                                                    background-color: #FFF;
+                                                    opacity: 90%;
+                                                    cursor: pointer;
+                                                    transition: .1000ms ease-in;
+                        
+                        
+                                                }
+
 }
+
+ @media screen and (min-width:390px) and (max-width:768px){
    
-   .travel{
-       margin-top: -550px;
-       position: absolute;
-       color: #D0D6F9;
-       font-size: 28px;
-       font-weight: 400px;
-       letter-spacing: 4.73px;
-    font-family: Barlow Condensed;
+
+        .horizontal-line{
+            display:none;
+        }
+
+           .desktopHome {
+               display: none;
+    
+    
+           }
+
+           .mobileHome{
+            display: none;
+           }
+
+           .space-on {
+              margin-top: -150px;
+              color: #FFF;
+              font-family: Bellefair;
+              font-size: 150px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 150px;
+            margin-left: 130px;
+        
+          }
+
+                         .travel {
+                             margin-top: -830px;
+                             margin-left:150px;
+                             position: absolute;
+                             color: #D0D6F9;
+                             font-size: 20px;
+                             font-weight: 400px;
+                             letter-spacing: 4.73px;
+                             justify-content: center;
+                             font-family: Barlow Condensed;
+                         }
+
+                                .faceit-now {
+                                  
+                                    margin-top: -260px;
+                                    color: #D0D6F9;
+                                    text-align: center;
+                                    font-family: Barlow;
+                                    font-size: 16px !important;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                    margin-left:1-15px
+                                   
+                
+                                }
+           
 
 
-   }
+           .in{
+            display: none;
+           }
+ 
+           .rounded{
+            margin-left: -60px;
+                margin-top: -320px;
+                background-color: white;
+                padding: 80px 60px 80px 60px;
+                border-radius: 100px 100px 100px 100px !important;
+               
+           }
+
+                   explore-more {
+                       color: #0B0D17;
+                       font-size: 10px;
+                       letter-spacing: 2px;
+                       font-weight: 400px;
+        
+                   }
+    
+ }
+
 
    h1{
        font-size: 150px;
@@ -147,63 +298,3 @@
     font-family: Bellefair;
    }
 
-
-   .explore-more {
-       color: #0B0D17;
-       font-size: 32px;
-       letter-spacing: 2px;
-       font-weight: 400px;
-
-   }
-
-   .in {
-       position: absolute;
-       margin-left: 400px;
-       top: 420px;
-       background-color: white;
-       padding: 90px 40px 90px 40px;
-      
-
-   }
-
-   .in:hover {
-      
-       border-width: 50px;
-       border-color: #24262F;
-       background-color: #FFF;
-       opacity: 90%;
-       cursor: pointer;
-        transition:.1000ms ease-in;
- 
-       
-   }
-
-
-   .faceit-now {
-       position: relative;
-       top: -310px;
-       color: #D0D6F9;
-       font-size: 16px;
-       line-height: 32px;
-       font-weight: 400px;
-   }
-
-   .horizontal-line {
-       position: absolute;
-       top: 85px;
-       margin-left: 270px;
-       max-width: 900px;
-   }
-
-   .logo-top {
-       background-color: white;
-       border-radius: 50px 50px;
-       position: absolute;
-       top: 60px;
-       margin-left: 100px;
-      
-
-
-   }
-
-  

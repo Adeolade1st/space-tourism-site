@@ -10,8 +10,10 @@ import {BrowserRouter as Router,Routes,Route, Link} from "react-router-dom";
 
 
 function App() {
-  return (
+  return (    
    
+
+    
     <Router >
                     <nav className="navBar">
                           <Link to="/"> <strong>00 </strong>HOME</Link>
@@ -31,10 +33,8 @@ function App() {
                           
                           
                             </Routes>
-                       
 
-                        
-    
+
    </Router>
   
    
