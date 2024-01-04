@@ -1,7 +1,5 @@
 import React from "react";
 import techBackground from './background-technology-desktop.jpg';
-import mainLogo from './Path.png';
-import horizontal from './Rectangle.png';
 import launchVehicle from './image-launch-vehicle-portrait.jpg';
 import Spaceport from "./Spaceport";
 import SpaceCapsule from "./SpaceCapsule";
@@ -19,8 +17,7 @@ export default function Technology(){
           <img src= {techBackground} alt="background" />
         
       
-         <span> <img src={mainLogo} className="logo-top" alt="logo"></img></span>
-         <span> <img src={horizontal} className="horizontal-line" alt="horizontal-line"></img></span>
+  
 
          <div className="container hero">
           <div className="container">

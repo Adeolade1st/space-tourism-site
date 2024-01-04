@@ -15,14 +15,10 @@
  .spaceport-img{
      position: absolute;
      top: 790px;
-     color: white;
-     font-family: Barlow Condensed;
-     font-size: 28px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: normal;
-     letter-spacing: 4.725px;
+     max-width: 467px;
  }
+
+ 
 
  .terminology-spaceport {
      position: relative;

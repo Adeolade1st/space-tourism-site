@@ -5,11 +5,9 @@
  .space-capsule-launch{
     position: relative;
     top: -1470px;
-    color: #FFF;
-        font-family: Barlow Condensed;
-        font-size: 28px;
-        font-weight: 400;
-        letter-spacing: 4.725px;
+    max-width: 467px;
+   
+      
  }
 
  .capsule-img {

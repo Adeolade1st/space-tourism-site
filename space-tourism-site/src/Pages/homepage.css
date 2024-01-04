@@ -17,16 +17,7 @@
 
    }
 
-   .hamburger{
-    width: 24px;
-    height: 21px;
-    flex-shrink: 0;
-   position: absolute;
-   top: 25px;
-   color: #D0D6F9;
-   margin-left: 300px;
 
-   }
 
     .in {
       
@@ -138,7 +129,7 @@
         }
 
                   .travel {
-                      margin-top: -500px;
+                      margin-top: -650px;
                       margin-left: 20px;
                       position: absolute;
                       color: #D0D6F9;
@@ -151,7 +142,7 @@
 
                                   .faceit-now {
                                       position: relative;
-                                      top: -270px;
+                                      top: -370px;
                                       color: #D0D6F9;
                                       font-size: 16px;
                                       line-height: 32px;
@@ -161,8 +152,8 @@
                         .horizontal-line {
                             position: absolute;
                             top: 85px;
-                            margin-left: 150px;
-                            max-width: 900px;
+                            margin-left: 220px;
+                            max-width: 1000px;
                         }
             
                         .logo-top {

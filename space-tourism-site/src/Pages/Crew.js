@@ -1,6 +1,4 @@
 import React from "react";
-import mainLogo from './Path.png';
-import horizontal from './Rectangle.png';
 import './crew.css';
 import doug from './doug.png';
 import mark from './mark.png';
@@ -23,13 +21,6 @@ export default function Crew(){
                
                  
        
-                <span> <img src={mainLogo} className="logo-head" alt="logo"></img></span>
-                <span> <img src={horizontal} className="horizontal-head" alt="horizontal-line"></img></span>
-             
-               
-               
-                
-             
              <div className="container hero">
 
              <div className="container">

@@ -1,6 +1,4 @@
 import React from "react";
-import mainLogo from './Path.png';
-import horizontal from './Rectangle.png';
 import hr from './hr-line.png';
 import bgDestination from './background-destination-desktop.jpg';
 import moon from './image-moon.png';
@@ -23,8 +21,7 @@ export default function Destination(){
              <img src={bgDestination} alt="background" className="bg-image" />
              <img src={bgDestination} alt="background" className="bg-image" />
              <img src={bgDestination} alt="background" className="bg-image" />
-              <span> <img src={mainLogo} className="logo-head" alt="logo"></img></span>
-                <span> <img src={horizontal} className="horizontal-head" alt="horizontal-line"></img></span>
+            
 
                 <div className="container main">
                     <div className="container">
@@ -55,7 +52,7 @@ export default function Destination(){
 
                    
                     </div>
-                     <Mars link />
+                     <Mars />
                      <Europa />
                      <Titan />
 

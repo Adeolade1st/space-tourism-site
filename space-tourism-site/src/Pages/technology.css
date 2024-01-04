@@ -1,18 +1,4 @@
- .horizontal-line {
-     position: absolute;
-     top: 85px;
-     margin-left: 345px;
-     max-width: 900px;
- }
 
- .logo-top {
-     background-color: white;
-     border-radius: 50px 50px;
-     position: absolute;
-     top: 60px;
-     margin-left: 100px;
- 
- }
 
  span{
     opacity: 50%;
@@ -31,14 +17,11 @@
  .launch-vehicle{
     position: absolute;
     top: -20px;
-    color: white;
-        font-family: Barlow Condensed;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 4.725px;
+    max-width: 469px;
+   
  }
+
+
 
  .terminology{
     position: relative;
