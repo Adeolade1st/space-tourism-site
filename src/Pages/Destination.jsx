@@ -1,8 +1,8 @@
 import React from "react";
-import hr from './hr-line.png';
-import bgDestination from './background-destination-desktop.jpg';
-import moon from './image-moon.png';
-import "./destination.css";
+import hr from './images/hr-line.png';
+import bgDestination from './images/background-destination-desktop.jpg';
+import moon from './images/image-moon.png';
+import "./styles/destination.css";
 import Mars from './Mars';
 import Europa from "./Europa";
 import Titan from "./Titan";

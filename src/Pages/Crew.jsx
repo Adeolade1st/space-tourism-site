@@ -1,13 +1,13 @@
 import React from "react";
-import './crew.css';
-import doug from './doug.png';
-import mark from './mark.png';
-import bgs from './background-crew-desktop.jpg';
-import bgs2 from './background-crew-desktop1.jpg';
-import bgs3 from './background-crew-desktop2.jpg';
-import bgs4 from './background-crew-desktop3.jpg';
-import victor from './image-victor-glover.png';
-import anouseh from './image-anousheh-ansari.png';
+import './styles/crew.css';
+import doug from './images/doug.png';
+import mark from './images/mark.png';
+import bgs from './images/background-crew-desktop.jpg';
+import bgs2 from './images/background-crew-desktop1.jpg';
+import bgs3 from './images/background-crew-desktop2.jpg';
+import bgs4 from './images/background-crew-desktop3.jpg';
+import victor from './images/image-victor-glover.png';
+import anouseh from './images/image-anousheh-ansari.png';
 
 
 

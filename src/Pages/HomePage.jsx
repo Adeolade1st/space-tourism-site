@@ -1,9 +1,9 @@
 import React from "react";
-import desktopBackground from './background-home-desktop.jpg';
-import mobileBackground from './background-home-mobile.jpg';
+import desktopBackground from './images/background-home-desktop.jpg';
+import mobileBackground from './images/background-home-mobile.jpg';
 
-import tabletBackground from './background-home-tablet.jpg';
-import './homepage.css';
+import tabletBackground from './images/background-home-tablet.jpg';
+import './styles/homepage.css';
 
 
 

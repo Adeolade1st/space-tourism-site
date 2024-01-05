@@ -1,6 +1,6 @@
 import React from "react";
-import './spacecapsle.css'
-import capsule from './image-space-capsule-portrait.jpg';
+import './styles/spacecapsle.css'
+import capsule from './images/image-space-capsule-portrait.jpg';
 
 
 export default function SpaceCapsule(){

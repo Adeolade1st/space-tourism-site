@@ -1,6 +1,6 @@
 import React from "react";
-import spacePort from './image-spaceport-portrait.jpg';
-import './spacesport.css';
+import spacePort from './images/image-spaceport-portrait.jpg';
+import './styles/spacesport.css';
 
 
 export default function Spaceport(){

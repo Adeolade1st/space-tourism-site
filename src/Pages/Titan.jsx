@@ -1,7 +1,7 @@
 import React from "react";
-import './titan.css';
-import titan from './image-titan.png';
-import hr from './hr-line.png';
+import './styles/titan.css';
+import titan from './images/image-titan.png';
+import hr from './images/hr-line.png';
 
 export default function Titan (){
     return(

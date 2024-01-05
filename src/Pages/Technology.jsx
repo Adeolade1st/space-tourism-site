@@ -1,10 +1,10 @@
 import React from "react";
-import techBackground from './background-technology-desktop.jpg';
-import launchVehicle from './image-launch-vehicle-portrait.jpg';
+import techBackground from './images/background-technology-desktop.jpg';
+import launchVehicle from './images/image-launch-vehicle-portrait.jpg';
 import Spaceport from "./Spaceport";
 import SpaceCapsule from "./SpaceCapsule";
 
-import './technology.css';
+import './styles/technology.css';
 
 
 export default function Technology(){

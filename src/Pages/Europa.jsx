@@ -1,7 +1,7 @@
 import React from "react";
-import europa from './image-europa.png';
-import hr from './hr-line.png';
-import './europa.css';
+import europa from './images/image-europa.png';
+import hr from './images/hr-line.png';
+import './styles/europa.css';
 
 
 export default function Europa(){

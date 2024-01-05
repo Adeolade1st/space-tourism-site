@@ -1,7 +1,7 @@
 import React from "react";
-import mars from './image-mars.png';
-import "./mars.css"
-import hr from './hr-line.png';
+import mars from './images/image-mars.png';
+import "./styles/mars.css"
+import hr from './images/hr-line.png';
 
 
 export default function Mars(){
