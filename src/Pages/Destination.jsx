@@ -1,71 +1,88 @@
-import React from "react";
-import hr from './images/hr-line.png';
-import bgDestination from './images/background-destination-desktop.jpg';
-import moon from './images/image-moon.png';
+import React, { useState } from "react";
 import "./styles/destination.css";
-import Mars from './Mars';
-import Europa from "./Europa";
-import Titan from "./Titan";
+import bgDestination from "./images/background-destination-desktop.jpg";
+import { Link } from "react-router-dom";
+import { DESTINATIONS } from "./Export";
 
+const Destination = () => {
 
+    const [active, setActive] = useState("moon");
 
+    function InnerNavBar({ id }) {
 
-export default function Destination(){
-    
-    return(
-       
+        const handleClick = (id) => () => {
+            setActive(id);
+        };
+        return (
+            <div className="other-destinations">
+                <span>
+                    <Link 
+                        to="#moon" 
+                        id={ id === "moon" ? "active" : "moon"} 
+                        onClick={handleClick("moon")}>MOON</Link>
+                </span>
+                <span>
+                    <Link 
+                        to="#mars" 
+                        id={ id === "mars" ? "active" : "mars"} 
+                        onClick={handleClick("mars")}> MARS</Link>
+                </span>
+                <span>
+                    <Link
+                        to="#europa" 
+                        id={ id === "europa" ? "active" : "europa"} 
+                        onClick={handleClick("europa")}>EUROPA</Link>
+                </span>
+                <span>
+                    <Link 
+                        to="#titan" 
+                        id={ id === "titan" ? "active" : "titan"} 
+                        onClick={handleClick("titan")}>TITAN</Link>
+                </span>
+            </div>
+        )
+    }
 
-        <div className="destination">
-    
-              <img src={bgDestination} alt="background" className="bg-image" />
-             <img src={bgDestination} alt="background" className="bg-image" />
-             <img src={bgDestination} alt="background" className="bg-image" />
-             <img src={bgDestination} alt="background" className="bg-image" />
-            
-
-                <div className="container main">
-                    <div className="container">
-                        <p className="moon-head"> <span className="num">01</span> PICK YOUR DESTINATION</p>
-                        <div className="row">
-                            <div className="col-sm-7"><img src={moon} alt="moon" className="moon"/></div>
-                            <div className="col-sm-4"> <span ><button className="btn">MOON</button></span> 
-                             <span ><button className="btn">  MARS</button></span> <span ><button className="btn ">EUROPA</button>
-                             </span> <span ><button className="btn ">TITAN</button></span> </div>
-                             <p className="mon-dest">MOON</p>
-                             <div className="col-5">  <p className="see">See our planet as you’ve never seen it before. A perfect relaxing trip 
-                                away to help regain perspective and come back refreshed. 
-                                While you’re there, take in some history by visiting the 
-                                Luna 2 and Apollo 11 landing sites.</p>
-
-                             </div>
-                            
-                              <div className="row">
-                                <div> < img src={hr} className="hr-body" alt="horizontal-line"></img></div>
-                                <div className="col-6 avg">AVG. DISTANCE</div>
-                                 <div className="col-6 est">EST. TRAVEL TIME</div>
-                                  <div className="col-6 km">384,400 KM</div>
-                                     <div className="col-6 days">3 DAYS</div>
-                                  </div>
-                            
-                           
-                        </div>
-
-                   
-                    </div>
-                     <Mars />
-                     <Europa />
-                     <Titan />
-
+  return (
+    <div className="destination-body">
+      <img src={bgDestination} alt="background" className="background-image" />
+      <main>
+      <p className="destination-head">
+        {" "}
+        <span className="num">01</span> PICK YOUR DESTINATION
+      </p>
+      {
+        DESTINATIONS.map((item, index) => (
+            active === item.id ?
+            <div key={index} className="destination-container">
+            <img src={item.image} alt={item.title} className="destination-image" />
+            <div >
+                <InnerNavBar id={item.id}/>        
+            <div className="">
+            <h1 className="title">{item.title}</h1>
+            {" "}
+            <p className="text">{item.text}</p>
+            </div>
+            <hr />
+            <div className="information">
+                <div>
+                    <h1>AVG. DISTANCE</h1>
+                    <h3>{item.distance} KM</h3>
                 </div>
+                <div>
+                    <h1>EST. TRAVEL TIME</h1>
+                    <h3>{item.timeToTravel} DAYS</h3>
+                </div>
+                </div>
+            </div>
+            </div>
+            : <div key={index}></div>
            
-             
+        ))
+        }
+      </main>
+    </div>
+  );
+};
 
-
-
-
-
-        </div>
-
-       
-    );
-}
+export default Destination;

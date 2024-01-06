@@ -58,7 +58,7 @@
     font-weight: 400px;
 }
 
-button {
+.explore {
     align-self: center;
     justify-self: center;
     width: 200px;
@@ -69,9 +69,10 @@ button {
     font-weight: 400px;
     letter-spacing: 2px;
     border-radius: 100px;
+    color: black;
 }
 
-button:hover {
+.explore:hover {
     width: 300px;
     height: 300px;
     border-radius: 150px;
@@ -83,7 +84,6 @@ button:hover {
     .homepage {
         width: 98%;
         overflow: hidden;
-        height: 100vh;
     }
 
     .travel {
@@ -110,7 +110,7 @@ button:hover {
         font-size: 120px;
     }
 
-    button:hover {
+    .explore:hover {
         width: 250px;
         height: 250px;
         border-radius: 125px;
@@ -152,7 +152,12 @@ button:hover {
         font-size: 100px;
     }
 
-    button:hover {
+    .explore {
+        width: 150px;
+        height: 150px;
+    }
+
+    .explore:hover {
         width: 175px;
         height: 175px;
         border-radius: 87.5px;
@@ -176,230 +181,3 @@ button:hover {
         font-size: 14px;
     }
 }
-
-/* @media screen and (max-width: 375px) {
-    .desktopHome {
-      display: none;
-    }
-  
-    .logo-top {
-      position: absolute;
-      margin-left: 20px;
-      top: 25px;
-      width: 40px;
-      height: 40px;
-      flex-shrink: 0;
-      background-color: white;
-    }
-  
-    .in {
-      display: none;
-    }
-  
-    .rounded {
-      margin-top: -280px;
-      margin-left: 90px;
-      background-color: #fff;
-      border-radius: 100px 100px 100px 100px !important;
-      padding: 60px 40px 60px 40px;
-    }
-  
-    .horizontal-line {
-      display: none;
-    }
-  
-    .travel {
-      position: absolute;
-      top: 100px;
-      color: #d0d6f9;
-      margin-left: 30px;
-      text-align: center;
-      font-family: Barlow Condensed;
-      font-size: 14px;
-      font-weight: 400;
-      letter-spacing: 2.7px;
-    }
-  
-    .faceit-now {
-      color: #d0d6f9;
-      text-align: center;
-      font-family: Barlow;
-      font-size: 15px !important;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 25px;
-      margin-top: -390px;
-    }
-  
-    .space-on {
-      margin-top: -180px;
-      font-size: 50px;
-      display: flex;
-      justify-content: center;
-      margin-left: 50px;
-      color: #fff;
-      font-family: Bellefair;
-      font-size: 80px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 100px;
-      margin-top: -250px;
-    }
-    .tabletHome {
-      display: none;
-    }
-  
-    ul {
-      display: block;
-    }
-  }
-  
-  @media screen and (min-width: 820px) {
-    .mobileHome {
-      display: none;
-    }
-  
-    .tabletHome {
-      display: none;
-    }
-  
-    .hamburger {
-      display: none;
-    }
-  
-    .space-on {
-      margin-top: -60px;
-      color: #fff;
-      font-family: Bellefair;
-      font-size: 150px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 100px;
-    }
-  
-    .rounded {
-      display: none;
-    }
-  
-    explore-more {
-      color: #0b0d17;
-      font-size: 10px;
-      letter-spacing: 2px;
-      font-weight: 400px;
-    }
-  
-    .travel {
-     
-    }
-  
-    .faceit-now {
-
-    }
-  
-    .horizontal-line {
-      position: absolute;
-      top: 85px;
-      margin-left: 220px;
-      max-width: 1000px;
-    }
-  
-    .logo-top {
-      background-color: white;
-      border-radius: 50px 50px;
-      position: absolute;
-      top: 60px;
-      margin-left: 20px;
-    }
-  
-    .explore-more {
-      color: #0b0d17;
-      font-size: 32px;
-      letter-spacing: 2px;
-      font-weight: 400px;
-    }
-  
-    .in {
-      position: absolute;
-      margin-left: 400px;
-      top: 420px;
-      background-color: white;
-      padding: 90px 40px 90px 40px;
-    }
-  
-    .in:hover {
-      border-width: 50px;
-      border-color: #24262f;
-      background-color: #fff;
-      opacity: 90%;
-      cursor: pointer;
-      transition: 0.1ms ease-in;
-    }
-  }
-  
-  @media screen and (min-width: 390px) and (max-width: 768px) {
-    .horizontal-line {
-      display: none;
-    }
-  
-    .desktopHome {
-      display: none;
-    }
-  
-    .mobileHome {
-      display: none;
-    }
-  
-    .space-on {
-      margin-top: -150px;
-      color: #fff;
-      font-family: Bellefair;
-      font-size: 150px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 150px;
-      margin-left: 130px;
-    }
-  
-    .travel {
-      margin-top: -830px;
-      margin-left: 150px;
-      position: absolute;
-      color: #d0d6f9;
-      font-size: 20px;
-      font-weight: 400px;
-      letter-spacing: 4.73px;
-      justify-content: center;
-      font-family: Barlow Condensed;
-    }
-  
-    .faceit-now {
-      margin-top: -260px;
-      color: #d0d6f9;
-      text-align: center;
-      font-family: Barlow;
-      font-size: 16px !important;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 25px;
-      margin-left: 1-15px;
-    }
-  
-    .in {
-      display: none;
-    }
-  
-    .rounded {
-      margin-left: -60px;
-      margin-top: -320px;
-      background-color: white;
-      padding: 80px 60px 80px 60px;
-      border-radius: 100px 100px 100px 100px !important;
-    }
-  
-    explore-more {
-      color: #0b0d17;
-      font-size: 10px;
-      letter-spacing: 2px;
-      font-weight: 400px;
-    }
-  } */

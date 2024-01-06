@@ -1,103 +1,220 @@
-.moon-head {
+*{
+    transition: none !important;
+}
+
+.destination-body {
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
+
+.destination-head {
     position: relative;
-    top: -3400px;
-    color: #FFF;
-    font-family: Barlow Condensed;
+    color: #d0d6f9;
     font-size: 28px;
+    font-weight: 400px;
+    letter-spacing: 4.73px;
+    justify-content: center;
+    font-family: Barlow Condensed;
+    padding: 8% 0 0 10%;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
-    letter-spacing: 4.725px;
     text-transform: uppercase;
 }
 
-.num {
-    opacity: 50%;
-}
-
-.moon {
+.destination-container {
     position: relative;
-    top: -3280px;
-    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 10%;
 }
 
-.mon-dest {
-    position: absolute;
-    margin-top: -3280px;
+
+.destination-image {
+    max-width: 600px;
+}
+
+.other-destinations {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 30px 0;
+    margin: 0 5% 0 0;
+    width: 100%;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+}
+
+.other-destinations a {
+    color: white;
+    text-transform: capitalize;
+    font-family: Barlow Condensed;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.other-destinations a:hover {
+    color: #c8cff9;
+}
+
+.other-destinations #active {
     color: black;
-    font-size: 50px;
-    margin-left: 750px;
-    color: #FFFF;
+}
+
+.title {
+    color: #ffff;
     font-family: Bellefair;
     font-size: 100px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
-
 }
 
-.see {
-
-    margin-top: -3150px;
-    color: #D0D6F9;
+.text {
+    color: #d0d6f9;
     font-family: Barlow;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    margin-left: 100px;
-
-
-
 }
 
-
-
-
-.col-sm-4 {
-    position: absolute;
-    top: 300px;
-    margin-left: 750px;
-
-
-
-}
-
-.col-sm-4 .btn {
+.destination-container hr {
     color: white;
+    width: 100%;
+    padding: 3px 0;
 }
 
-.avg {
-    position: absolute;
-    top: 750px;
-    color: #D0D6F9;
-    margin-left: 750px;
-
+.information {
+    display: flex;
+    justify-content: space-between;
 }
 
-.est {
-    position: absolute;
-    top: 750px;
-    color: #D0D6F9;
-    margin-left: 980px;
-
-
+.information h1 {
+    color: #d0d6f9;
+    font-size: 32px;
 }
 
-.km {
-
-    position: absolute;
-    top: 780px;
+.information h3 {
     color: white;
-    margin-left: 750px
+    font-size: 22px;
 }
 
-.days {
+@media screen and (max-width: 1024px) {
+    .destination-head {
+        padding: 15% 0 0 10%;
+    }
 
-    position: absolute;
-    top: 780px;
-    color: white;
-    margin-left: 980px;
+    .destination-container{
+        padding: 40px 20px;
+        gap: 3%;
+    }
+
+    .information h1 {
+        font-size: 28px;
+    }
 }
 
+@media screen and (max-width: 768px) {
+    .destination-head {
+        padding: 20% 0 0 10%;
+        font-size: 24px;
+    }
+
+    .destination-container {
+        flex-direction: column-reverse;
+        padding: 40px;
+    }
+
+    .destination-image {
+        position: absolute;
+    }
+
+    .information, .title, .text {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .destination-head {
+        padding: 30% 0 0 5%;
+        font-size: 18px;
+    }
+
+    .destination-container {
+        padding: 20px;
+    }
+
+    .destination-image {
+        max-width: 400px;
+    }
+
+    .title {
+        font-size: 70px;
+    }
+
+    .information h1 {
+        font-size: 24px;
+    }
+    
+    .information h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .destination-head {
+        font-size: 14px;
+    }
+
+    .destination-container {
+        padding: 10px;
+    }
+
+    .destination-image {
+        max-width: 300px;
+    }
+
+    .information h1 {
+        font-size: 20px;
+    }
+    
+    .information h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .destination-head {
+        padding: 38% 0 0 5%;
+        font-size: 12px;
+    }
+
+    .destination-image {
+        max-width: 280px;
+    }
+
+    .information h1 {
+        font-size: 18px;
+    }
+    
+    .information h3 {
+        font-size: 14px;
+    }
+}

@@ -22,7 +22,7 @@ export default function HomePage() {
 
                         </p>
                     </div>
-                    <button>Explore</button>
+                    <button className="explore">Explore</button>
                 </div>
             </div>
         </div>
