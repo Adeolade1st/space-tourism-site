@@ -3,6 +3,22 @@ import { Link  } from "react-router-dom";
 import logo from './images/Path.png'
 import './styles/navbar.css'
 
+const NAVIGATION = [
+  {
+    link: "/",
+    title: "HOME"
+  },{
+    link: "/destination",
+    title: "DESTINATION"
+  },{
+    link: "/crew",
+    title: "CREW"
+  },{
+    link: "/technology",
+    title: "TECHNOLOGY"
+  },
+]
+
 const NavBar = () => {
 
     const [clicked, setClicked] = useState(false);
@@ -12,31 +28,41 @@ const NavBar = () => {
     }
 
   return (
-    <div className="navBar">
+    <>
+      <div className="navBar">
             <img src={logo} alt="logo" className='logo'/>
             <hr />
               <nav>
-                <Link to="/" className="active">
-                  <strong>00</strong> HOME
-                </Link>
-                <Link to="/destination">
-                  <strong>01</strong> DESTINATION
-                </Link>
-                <Link to="/crew">
-                  <strong>02</strong> CREW
-                </Link>
-                <Link to="/technology">
-                  <strong>03</strong> TECHNOLOGY
-                </Link>
+                {
+                  NAVIGATION.map((navigation, index) => (
+                    <Link to={navigation.link} className="active">
+                      <strong>0{index}</strong>
+                      {navigation.title}
+                    </Link>
+                  ))
+                }
               </nav>
-            <div id="mobile-view" onClick={handleClick}>
-              <div
-                id="times"
-                className={clicked ? "fas fa-times" : "fas fa-bars"}
-                >                
-              </div>
-            </div>
         </div>
+        <div id="mobile-view" onClick={handleClick}>
+              <div className={clicked ? "fas fa-times" : "fas fa-bars"} >     
+              </div>
+        </div>
+        {
+          !clicked ?
+          <div></div>
+          :
+          <div className='mobile-nav'>
+              {
+                NAVIGATION.map((navigation, index) => (
+                  <Link to={navigation.link} className="active">
+                    <strong>0{index}</strong>
+                    {navigation.title}
+                  </Link>
+                ))
+              }  
+          </div>
+        }
+    </>
   )
 }
 
