@@ -45,7 +45,7 @@ const Destination = () => {
 
   return (
     <div className="destination-body">
-      <img src={bgDestination} alt="background" className="background-image" />
+      <img src={bgDestination} alt="background" className="destination-background-image" />
       <main>
       <p className="destination-head">
         <span className="num">01</span> PICK YOUR DESTINATION

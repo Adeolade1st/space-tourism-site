@@ -27,7 +27,7 @@ const CrewMember = ({position, name, introduction, image, reverse}) => {
 export default function Crew() {
   return (
     <div className="crew-body">
-        <img src={bgs} alt="background" className="background-image" />
+        <img src={bgs} alt="background" className="crew-background-image" />
         <p className="crew-head">
             <span className="num">02</span> MEET YOUR CREW
         </p>

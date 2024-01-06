@@ -25,7 +25,7 @@ const TechnologyTemplate = ({position, name, lecture, image, reverse}) => {
 export default function Technology() {
   return (
     <div className="Terminology">
-      <img src={techBackground} alt="background" className="background-image" />
+      <img src={techBackground} alt="background" className="technology-background-image" />
         <p className="technology-head">
           <span className="num">03</span> SPACE LAUNCH 101
         </p>

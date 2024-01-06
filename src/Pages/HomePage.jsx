@@ -3,6 +3,7 @@ import desktopBackground from './images/background-home-desktop.jpg';
 import mobileBackground from './images/background-home-mobile.jpg';
 import tabletBackground from './images/background-home-tablet.jpg';
 import './styles/homepage.css';
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
     return (
@@ -22,7 +23,9 @@ export default function HomePage() {
 
                         </p>
                     </div>
-                    <button className="explore">Explore</button>
+                    <Link to="/destination">
+                        <button className="explore" >Explore</button>
+                    </Link>
                 </div>
             </div>
         </div>
