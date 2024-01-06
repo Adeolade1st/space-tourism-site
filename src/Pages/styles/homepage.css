@@ -152,15 +152,10 @@
         font-size: 100px;
     }
 
-    .explore {
-        width: 150px;
-        height: 150px;
-    }
-
     .explore:hover {
-        width: 175px;
-        height: 175px;
-        border-radius: 87.5px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
         background-color: black;
         color: white;
     }
