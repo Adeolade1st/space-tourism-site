@@ -18,9 +18,9 @@ function App() {
           <NavBar />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/Destination" element={<Destination />} />
-            <Route path="/Crew" element={<Crew />} />
-            <Route path="/Technology" element={<Technology />} />
+            <Route path="/destination" element={<Destination />} />
+            <Route path="/crew" element={<Crew />} />
+            <Route path="/technology" element={<Technology />} />
           </Routes>
         </header>
       </Router>

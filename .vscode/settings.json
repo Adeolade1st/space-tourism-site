@@ -1,5 +1,12 @@
 {
     "githubPullRequests.ignoredPullRequestBranches": [
         "master"
+    ],
+    "cSpell.words": [
+        "ANOUSEH",
+        "anousheh",
+        "ansari",
+        "Prodea",
+        "Shuttleworth"
     ]
 }

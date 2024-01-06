@@ -1,247 +1,168 @@
-
-
-.doug-head{
-    color: white;
-    position: absolute;
-    top: 200px;
-        font-family: Barlow Condensed;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 4.725px;
-        text-transform: uppercase;
+.crew-body {
+    width: 100%;
+    overflow: hidden;
 }
 
-
-
-
-.doug-image{
-    position: absolute;
-    top: 170px;
-    margin-left: 150px;
-    max-width: 400px;
+.background-image {
+    width: 100%;
+    height: 3200px;
+    object-fit: cover;
 }
 
-
-.commander-doug{
-    color: #D0D6F9;
-        font-family: Bellefair;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
-        position: relative;
-        top: -3210px;
-     
-     
+.crew-image {
+    max-width: 600px;
 }
 
-.douglas{
-    color: white;
-        font-family: Bellefair;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-        position: relative;
-        top: -3200px;
+.crew-head {
+    position: relative;
+    color: #d0d6f9;
+    font-size: 28px;
+    font-weight: 400px;
+    letter-spacing: 4.73px;
+    justify-content: center;
+    font-family: Barlow Condensed;
+    padding: 8% 0 0 10%;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
-.doug-about{
-    color:#D0D6F9;
-        font-family: Barlow;
+.crew-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 10%;
+}
+
+.crew-container-reverse {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 10%;
+}
+
+.title {
+    color: #ffff;
+    font-family: Bellefair;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #d0d6f9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+    .crew-head {
+        padding: 15% 0 0 10%;
+    }
+
+    .crew-container, .crew-container-reverse{
+        padding: 40px;
+        gap: 3%;
+    }
+
+    .crew-image {
+        max-width: 500px;
+    }
+
+    .background-image {
+        height: 3000px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .crew-head {
+        padding: 20% 0 0 10%;
+        font-size: 24px;
+    }
+
+    .background-image {
+        height: 4250px;
+    }
+
+    .crew-container, .crew-container-reverse {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .crew-head {
+        padding: 30% 0 0 5%;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-        position: relative;
-        top: -3190px;
-      
+    }
+
+    .background-image {
+        height: 3750px;
+    }
+
+    .crew-image {
+        max-width: 400px;
+    }
+
+    .crew-container, .crew-container-reverse {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 70px;
+    }
 }
 
+@media screen and (max-width: 376px) {
+    .crew-head {
+        font-size: 14px;
+    }
 
-.specialist {
-    color: #D0D6F9;
-    font-family: Bellefair;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    position: relative;
-    top: -2620px;
+    .crew-container, .crew-container-reverse {
+        padding: 10px;
+    }
 
+    .title {
+        font-size: 50px;
+    }
+
+    .crew-image {
+        max-width: 300px;
+    }
+
+    .background-image {
+        height: 2990px;
+    }
 }
 
-.mark-shu {
-    color: white;
-    font-family: Bellefair;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-   position: relative;
-   top: -2590px;
-}
+@media screen and (max-width: 321px) {
+    .crew-head {
+        padding: 38% 0 0 5%;
+        font-size: 12px;
+    }
 
-.mark-about {
-    color: #D0D6F9;
-    font-family: Barlow;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    position: relative;
-    top: -2550px;
+    .crew-image {
+        max-width: 280px;
+    }
 
-}
-.mark-image {
-    position: absolute;
-    top: 1030px;
-    margin-left: 150px;
-    max-width: 400px;
-}
+    .background-image {
+        height: 2850px;
+    }
 
-.head-mark{
-    color:white;
-        font-family: Barlow Condensed;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 4.725px;
-        position: absolute;
-        margin-top: -2900px;
-      
-}
+    .title {
+        font-size: 40px;
+    }
 
-
-.pilot {
-    color:#D0D6F9;
-    font-family: Bellefair;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    position: relative;
-    top: -2000px;
-
-}
-
-.victor-glover {
-    color: white;
-    font-family: Bellefair;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-   position: relative;
-   top: -1970px;
-}
-
-.victor-about {
-    color: #D0D6F9;
-    font-family: Barlow;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    position: relative;
-    top: -1900px;
-    
-
-}
-
-.victor-image {
-    position: absolute;
-    top: 1950px;
-    margin-left: 150px;
-    max-width: 400px;
-}
-
-.head-victor{
-    color: white;
-    font-family: Barlow Condensed;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 4.725px;
-    position: absolute;
-    margin-top: -2220px;
-
-}
-
-
-
-
-
-
-
-.engineer {
-    color: #D0D6F9;
-    font-family: Bellefair;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    position: relative;
-    top: -1370px;
-
-}
-
-.anuouseh-ansari{
-    color: white;
-    font-family: Bellefair;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    position: relative;
-    top: -1350px;
-}
-
-.anouseh-about {
-    color: #D0D6F9;
-    font-family: Barlow;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    position: relative;
-    top: -1300px;
-
-
-}
-
-.anouseh-image {
-    position: absolute;
-    top: 2900px;
-    margin-left: 150px;
-    max-width: 400px;
-}
-
-.head-anouseh{
-    color: white;
-    font-family: Barlow Condensed;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 4.725px;
-    position: absolute;
-    margin-top: -1550px;
-
+    .crew-image {
+        max-width: 280px;
+    }
 }

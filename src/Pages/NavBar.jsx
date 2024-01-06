@@ -19,13 +19,13 @@ const NavBar = () => {
                 <Link to="/" className="active">
                   <strong>00</strong> HOME
                 </Link>
-                <Link to="/Destination">
+                <Link to="/destination">
                   <strong>01</strong> DESTINATION
                 </Link>
-                <Link to="/Crew">
+                <Link to="/crew">
                   <strong>02</strong> CREW
                 </Link>
-                <Link to="/Technology">
+                <Link to="/technology">
                   <strong>03</strong> TECHNOLOGY
                 </Link>
               </nav>

@@ -48,7 +48,6 @@ const Destination = () => {
       <img src={bgDestination} alt="background" className="background-image" />
       <main>
       <p className="destination-head">
-        {" "}
         <span className="num">01</span> PICK YOUR DESTINATION
       </p>
       {
