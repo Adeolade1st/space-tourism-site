@@ -1,0 +1,178 @@
+.homepage {
+    width: 100%;
+    overflow: hidden;
+}
+
+.desktopHome {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
+.mobileHome, .tabletHome {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
+
+.travel {
+    position: relative;
+    color: #d0d6f9;
+    font-size: 20px;
+    font-weight: 400px;
+    letter-spacing: 4.73px;
+    justify-content: center;
+    font-family: Barlow Condensed;
+    padding: 8% 0 0 10%;
+}
+
+.innerContainer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px;
+    gap: 10%;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-on {
+  font-size: 150px;
+  color: #fff;
+  font-weight: 400px;
+  font-family: Bellefair;
+}
+
+.faceit-now {
+    position: relative;
+    color: #d0d6f9;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400px;
+}
+
+.explore {
+    align-self: center;
+    justify-self: center;
+    width: 200px;
+    height: 200px;
+    border: none;
+    background-color: white;
+    font-size: 32px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    border-radius: 100px;
+    color: black;
+}
+
+.explore:hover {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .homepage {
+        width: 98%;
+        overflow: hidden;
+    }
+
+    .travel {
+        padding: 20% 0 0 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .desktopHome, .mobileHome {
+        display: none;
+    }
+
+    .tabletHome {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .innerContainer{
+        margin: 80px 40px 0 40px;
+    }
+
+    .space-on {
+        font-size: 120px;
+    }
+
+    .explore:hover {
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+        background-color: black;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .homepage {
+        width: 100vw;
+        height: 100%;
+    }
+
+    .desktopHome, .tabletHome {
+        display: none;
+    }
+
+    .mobileHome {
+        display: flex;
+        overflow-x: hidden;
+        overflow-y: scroll !important;
+        height: 100%;
+    }
+
+    .travel {
+        padding: 28% 0 0 5%;
+        font-size: 17px;
+    }
+
+    .innerContainer{
+        margin: 20px 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .space-on {
+        font-size: 100px;
+    }
+
+    .explore:hover {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-color: black;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .travel {
+        padding: 35% 0 0 5%;
+        font-size: 14px;
+    }
+
+    .space-on {
+        font-size: 60px;
+    }
+
+    .faceit-now {
+        font-size: 14px;
+    }
+}
